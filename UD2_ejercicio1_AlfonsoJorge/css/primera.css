@@ -1,0 +1,20 @@
+
+
+#legras{
+    padding-right: 20px; /*-padding de <img id="legras"> a la derecha-*/
+}
+
+#camosc{
+    padding-right: 20px; /*-padding de <img id="fotobody"> a la derecha-*/
+    margin-bottom: 50px; /*-margen inferior de <img id="fotobody">-*/
+}
+
+div.foto{
+    width: 450px; /*-tamazo de los <div class="foto">-*/
+}
+
+h3{
+    padding-top: 0px; /*-padding de <h3> por arriba-*/
+    font-size: 30px; /*-tamaño de la letra en <h3>-*/
+}
+

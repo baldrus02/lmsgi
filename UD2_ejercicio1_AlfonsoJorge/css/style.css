@@ -1,0 +1,108 @@
+
+
+        /*---ESTILOS GENERALES-*/
+
+body{
+    background-color: rgb(21, 22, 21); /*-color del fondo del body-*/
+    color: white; /*-color de la letra-*/
+    font-family: Arial, Helvetica, sans-serif; /*-fuente de letra-*/
+    margin: 0px; /*-Margen del <body>-*/
+}
+
+#titulo{
+    font-family: "Lucida Console"; /*-fuente de letra de <h1 id="titulo">-*/
+}
+
+p{
+    text-align: justify; /*-alineacion del texto en <p>-*/
+}
+
+section.text{
+    margin: auto; /*-se centra automaticamente al centro del <section>-*/
+    width: 960px; /*-anchura de <section>-*/
+}
+
+div.subtitulo{
+    text-align: center; /*-alineacion del texto en los <div class="subtitulo">-*/
+    font-size: 30px; /*-tamaño de la letra en los <div class="subtitulo">-*/
+    background-color: rgb(53, 54, 58); /*-color del fondo de los <div class="subtitulo">-*/
+    width: 960px; /*-anchura de los <div class="subtitulo">-*/
+    margin: auto; /*-se centra automaticamente al centro de los <div class="subtitulo">-*/
+    padding: 15px 0px; /*-padding vertical y horizontal de los <div class="subtitulo">-*/
+    padding-top: 213px; /*-padding de los <div class="subtitulo"> por arriba-*/
+}
+
+        /*---MENU---*/
+
+nav {
+    text-align: center; /*-alineacion del texto en <nav>-*/
+    width: 960px; /*-anchura de <nav>-*/
+    margin: auto; /*-se centra automaticamente al centro del <nav>-*/
+    padding-bottom: 13px; /*-padding del <nav> por abajo-*/
+}
+
+#menu{
+    font-size: 20px;
+    background-color: rgb(53, 54, 58); /*-color del fondo del <div id="menu">-*/
+    padding-top: 1px; /*-Margen por arriba-*/
+    padding-bottom: 1px; /*-Margen por abajo-*/
+    width: 960px; /*-anchura de <div id="subheader">-*/
+}
+
+nav #menu ul li{
+    display: inline; /*-disposicion de la lista desordenada-*/
+    margin: 30px; /*-margen entre las <li>-*/
+}
+
+nav #menu ul li a{
+    color: white; /*-color de letra de las <a>-*/
+    font-size: 20; /*-tamaño de la letra de las <a>-*/
+    padding: 10px; /*-margen entre las <a>-*/
+    text-decoration: none; /*-decoración de las <a>-*/
+}
+
+nav #menu ul li a:hover {
+    color:#fff; /*-color de letra cuando pasas el cursor por encima de las <a>-*/
+    background-color: #1798af; /*-color de fondo cuando pasas el cursor por encima de las <a>-*/
+    text-decoration:none; /*-decoracion cuando pasas el cursor por encima de las <a>-*/
+}
+
+
+        /*---HEADER---*/
+
+h1{
+    font-size: 50px; /*-tamaño de la fuente de <h1>-*/
+    margin-top: 0px; /*-margen que tendrá el <h1> por arriba-*/
+    padding-top: 15px; /*-padding que tendrá el <h1> por arroba-*/
+}
+
+h1 a{
+    text-decoration: none; /*-decoracióndel texto en <a>-*/
+    color: white;  /*-color de la letra en <a>-*/
+}
+
+h1 a:hover{
+    text-decoration: none; /*-decoracion cuando pasas el cursor por encima de las <a>-*/
+}
+
+#icono{
+    width: 90px; /*-dimensioes del <div id="icono">-*/
+    padding-top: 15px; /*-padding del <div ="icono"> por arriba-*/
+}
+
+img{
+    width: 100%; /*-hace que la imagen se adecue a las dimensiones del <div> en el que está comprendida-*/
+    float: left; /*-el siguiente elemento se pega a la izda de este <div>-*/
+    padding-right: 240px; /*-separador entre la imagen y su elemento a la derecha-*/
+}
+
+header {
+    width: 100%; /*-el <header> ocupa el 100% del ancho de la página-*/ 
+    background-color: rgb(44, 43, 43); /*-color de fondo del <header>-*/
+    position: fixed; /*-el <header> queda fijo y se superpone al resto de elementos-*/
+}
+
+#subheader {
+    width: 960px; /*-anchura de <div id="subheader">-*/
+    margin: auto; /*-los margenes se igualan a izquierda y derecha, de tal forma que queda centrado-*/
+}

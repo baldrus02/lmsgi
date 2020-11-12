@@ -1,0 +1,27 @@
+
+
+
+img.fotobody{
+    padding-right: 20px; /*-padding de las <img class="fotobody"> a la derecha_*/
+    padding-bottom: 10px; /*-padding de los <img class="fotobody">-*/
+}
+
+div.foto{
+    width: 413px; /*-tamaño del <div class="foto">-*/
+}
+
+#fotobody1{
+    float: left; /*-<img id="fotobody1"> semalinea a la izquierda-*/
+    width: 450px; /*-anchura del <img id="fotobody1">-*/
+    height: 359px; /*-altura del <img id="fotobody1">-*/
+    padding: 0; /*-padding del <img id="fotobody1">-*/
+    margin-bottom: 50px; /*-margen inferior del <img id="fotobody1">-*/
+}
+
+#fotobody2{
+    float: right; /*-<img id="fotobody2"> se alinea a la derecha-*/
+    width: 450px; /*-anchura del <img id="fotobody2">-*/
+    height: 359px; /*-altura del <img id="fotobody2">-*/
+    padding: 0; /*-padding del <img id="fotobody2">-*/
+    margin-bottom: 50px; /*-margen inferior del <img id="fotobody2">-*/
+}

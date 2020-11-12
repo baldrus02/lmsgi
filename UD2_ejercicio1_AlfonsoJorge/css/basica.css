@@ -1,0 +1,38 @@
+
+
+h3{
+    padding-top: 0px; /*-padding de <h3> por arriba-*/
+    font-size: 30px; /*-tamaño de la letra en <h3>-*/
+}
+
+#Fibonacci{
+    background-color: white; /*-color de fondo de <img id="Fibonacci">-*/
+    padding: 0px; /*-padding de <img id="Fibonacci">-*/
+    width: 450px; /*-anchura de <img id="Fibonacci">-*/
+    float: left; /*-alineacion de <img id="Fibonacci"> a la izquierda-*/
+    margin-right: 80px; /*-margen derecho de <img id="Fibonacci">-*/
+    margin-bottom: 10px; /*-margen inferior de <img id="Fibonacci">-*/
+}
+
+#tercios{
+    width: 429px;/*-anchura de <img id="tercios">-*/
+    float: right; /*-alineacion de <img id="tercios"> a la derecha-*/
+    padding: 0px;/*-padding de <img id="tercios">-*/
+    margin-bottom: 5px; /*-margen inferior de <img id="tercios">-*/
+}
+
+#pfo{
+    float:left; /*-el parrafo <p is="pfo"> se alinea a la izquierda-*/
+}
+
+table tr td{
+    text-align: center; /*-alineacion del texto en las tablas-*/
+}
+
+table tr.table{
+    height: 60px; /*-añtura de las filas de <tr class="table">-*/
+}
+
+#last{
+    margin-bottom: 50px; /*-margen inferior de <table id="last">-*/
+}
